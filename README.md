@@ -1,7 +1,7 @@
 # tallerCalculadora
 
-Mateo Valencia Jimenez C
-ristian David Velez Ramirez 
+Mateo Valencia Jimenez 
+Cristian David Velez Ramirez 
 Camilo Andres Ospina Villa 
 Grupo 16
 
