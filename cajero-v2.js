@@ -28,6 +28,7 @@ function mostrarResultado(resultado) {
 }
 
 function atenderOperacion() {
+    let resultado;
     let num1 = pedirNumero("Digita el primer numero:  ");
     let operador = prompt ("Digita el operador + - * / : ");
     let num2 = pedirNumero ("Digita el segundo numero: ");
@@ -35,7 +36,7 @@ function atenderOperacion() {
     if (num2 == 0 && operador == "/") {
         resultado = "Error: No se puede dividir entre cero";
     } else {
-        let resultado = calcular(num1, operador, num2);
+        resultado = calcular(num1, operador, num2);
     }
     mostrarResultado(resultado);
 }
